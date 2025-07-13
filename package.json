@@ -1,0 +1,32 @@
+{
+  "name": "fetan-taskify-api",
+  "version": "1.0.0",
+  "description": "A backend API for managing tasks with JWT authentication, built using ExpressJS and MySQL.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "keywords": [
+    "express",
+    "mysql",
+    "task manager",
+    "backend",
+    "api",
+    "jwt"
+  ],
+  "author": "Dereje Masresha <derejemasresha27@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^4.15.0",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^4.15.0"
+  }
+}
