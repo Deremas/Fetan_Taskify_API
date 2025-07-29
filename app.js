@@ -7,7 +7,6 @@ const helmet = require("helmet");
 const rateLimit = require("express-rate-limit");
 const hpp = require("hpp");
 
-
 const app = express();
 
 // Security Middlewares
@@ -24,6 +23,11 @@ app.use(limiter);
 // Basic Middlewares
 app.use(cors());
 app.use(express.json());
+
+// Welcome Route
+app.use("/", (req, res) => {
+  res.send("Welcome to Fetan Taskify API");
+});
 
 // Routes
 app.use("/auth", require("./routes/auth"));
