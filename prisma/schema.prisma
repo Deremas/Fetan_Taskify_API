@@ -18,7 +18,7 @@ model User {
 
 model Task {
   id        Int        @id @default(autoincrement())
-  name      String
+  task_name      String
   status    TaskStatus @default(PENDING)
   userId    Int
   user      User       @relation(fields: [userId], references: [id])
