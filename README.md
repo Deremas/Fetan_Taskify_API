@@ -5,7 +5,26 @@ A simple Task Manager RESTful API built with **Node.js**, **Express.js**, **Pris
 ---
 
 ## 📁 Project Structure
-<pre> \`\`\`text 📁 controllers/ │ ├── authController.js │ ├── taskController.js │ └── profileController.js 📁 routes/ │ ├── auth.js │ ├── tasks.js │ └── profile.js 📁 middlewares/ │ ├── authMiddleware.js │ ├── signUpMiddleware.js │ └── loginMiddleware.js 📁 prisma/ │ └── schema.prisma 📄 .env 📄 .env.sample 📄 app.js 📄 README.md \`\`\` </pre>
+```
+📁 controllers/
+│   ├── authController.js
+│   ├── taskController.js
+│   └── profileController.js
+📁 routes/
+│   ├── auth.js
+│   ├── tasks.js
+│   └── profile.js
+📁 middlewares/
+│   ├── authMiddleware.js
+│   ├── signUpMiddleware.js
+│   └── loginMiddleware.js
+📁 prisma/
+│   └── schema.prisma
+📄 .env
+📄 .env.sample
+📄 app.js
+📄 README.md
+```
 
 
 ---
